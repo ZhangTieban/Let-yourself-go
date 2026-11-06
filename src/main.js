@@ -86,7 +86,7 @@ const alerts = createAlerts({
     clearTimeout(flashTimer);
     flashTimer = setTimeout(() => {
       document.body.classList.remove('alerting');
-      document.title = 'The Magic of Love';
+      document.title = 'Let yourself go';
     }, 4000);
   },
 });
